@@ -27,7 +27,7 @@ Stack &Stack::operator=(const Stack &other) {
 }
 
 void Stack::push(int value) {
-    if (top + 1 >= size) {
+    if (top + 1 == size) {
         int newSize = (size == 0) ? 1 : size * 2;
         int* newBuffer = new int[newSize];
         for (int i = 0; i <= top; ++i) newBuffer[i] = buffer[i];
