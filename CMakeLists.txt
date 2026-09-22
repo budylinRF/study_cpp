@@ -4,7 +4,7 @@ project(Study_Cpp)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Study_Cpp
-        tasks/count_words/words.cpp
-        tasks/count_words/words.h
-        tasks/count_words/main.cpp
+        tasks/dynamic_stack/main.cpp
+        tasks/dynamic_stack/stack.cpp
+        tasks/dynamic_stack/stack.h
 )
