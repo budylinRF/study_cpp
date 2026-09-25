@@ -7,4 +7,5 @@ add_executable(Study_Cpp
         tasks/dynamic_stack/main.cpp
         tasks/dynamic_stack/stack.cpp
         tasks/dynamic_stack/stack.h
+        tasks/throw_test/main.cpp
 )
