@@ -17,8 +17,6 @@ class DivZero : public Error {
 public:
     DivZero(int error_code) : error_code(error_code) {}
 
-
-
     void show() {
         std::cout << "error code: " <<error_code << std::endl;
     }
