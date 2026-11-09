@@ -15,4 +15,5 @@ add_executable(Study_Cpp
         tasks/dynamic_dequeue/dequeue.cpp
         tasks/dynamic_dequeue/dequeue.h
         tasks/dequeue_from_stack/main.cpp
+        tasks/postfix_form/main.cpp
 )
